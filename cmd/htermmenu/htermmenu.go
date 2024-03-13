@@ -21,7 +21,7 @@ import (
 const gopathRelativeStaticDir = "src/github.com/evanj/hterm/cmd/htermmenu/static"
 
 var permittedCommands = []string{
-	"ls", "vi", "man bash", "bash",
+	"ls", "vi", "man bash", "/data/data/com.termux/files/usr/bin/bash",
 }
 
 type indexTemplate struct {
