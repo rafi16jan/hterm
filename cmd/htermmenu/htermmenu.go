@@ -15,7 +15,7 @@ import (
 	"strings"
 
 	"github.com/evanj/hterm"
-	"github.com/kr/pty"
+	"github.com/creack/pty"
 )
 
 const gopathRelativeStaticDir = "src/github.com/evanj/hterm/cmd/htermmenu/static"
