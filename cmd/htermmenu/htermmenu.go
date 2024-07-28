@@ -18,7 +18,7 @@ import (
 	"github.com/creack/pty"
 )
 
-const gopathRelativeStaticDir = "src/github.com/evanj/hterm/cmd/htermmenu/static"
+const gopathRelativeStaticDir = "src/github.com/rafi16jan/hterm/cmd/htermmenu/static"
 
 var permittedCommands = []string{
 	"ls", "vi", "man bash", "bash",
